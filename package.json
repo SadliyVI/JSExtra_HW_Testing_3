@@ -1,0 +1,38 @@
+{
+  "name": "jsextra_hw_testing",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SadliyVI/JSExtra_HW_Testing#readme",
+  "bugs": {
+    "url": "https://github.com/SadliyVI/JSExtra_HW_Testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadliyVI/JSExtra_HW_Testing.git"
+  },
+  "license": "ISC",
+  "author": "SadliyVI",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
+  },
+    "devDependencies": {
+      "@babel/cli": "^7.28.3",
+      "@babel/core": "^7.28.4",
+      "@babel/preset-env": "^7.28.3",
+      "eslint": "^9.36.0",
+      "eslint-plugin-prettier": "^5.5.4",
+      "globals": "^16.4.0",
+      "husky": "^9.1.7",
+      "jest": "^30.1.3",
+      "jest-babel": "^1.0.1",
+      "prettier": "^3.6.2"
+    },
+    "dependencies": {
+      "core-js": "^3.45.1"
+    }
+}
